@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Check box</name>
+   <name>upload and download</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7faf42fa-de69-4325-821d-156736ac8ab5</testCaseGuid>
+   <testCaseGuid>5fefadc8-3268-45bb-b21d-3d2d6a2b7428</testCaseGuid>
 </TestCaseEntity>
