@@ -1,0 +1,342 @@
+2025-06-22 07:54:24.024 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Element
+2025-06-22 07:54:24.172 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Paramidita Nurul
+2025-06-22 07:54:24.172 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = UI Automation
+2025-06-22 07:54:24.176 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = param - LAPTOP-BL68E3T5
+2025-06-22 07:54:24.176 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-06-22 07:54:24.177 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.13
+2025-06-22 07:54:24.178 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-22 07:54:25.026 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-22 07:54:25.026 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Button
+2025-06-22 07:54:25.600 DEBUG testcase.Button                          - 1: openBrowser("https://demoqa.com/")
+2025-06-22 07:54:26.017 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-22 07:54:26.059 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-22 07:54:26.069 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-22 07:54:27.348 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 1279 ms
+2025-06-22 07:54:27.350 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\param\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-22 07:54:27.350 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\param\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-22 07:54:27.382 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 22, 2025 7:54:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 7:54:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-22 07:54:31.260 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 013f78a51ebbb4f47de423036cbc6905
+2025-06-22 07:54:31.263 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-22 07:54:31.263 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-22 07:54:31.264 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-22 07:54:31.273 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-22 07:54:37.137 DEBUG testcase.Button                          - 2: click(findTestObject("Page_DEMOQA elements/h5_Elements"))
+2025-06-22 07:54:48.604 DEBUG testcase.Button                          - 3: click(findTestObject("Page_DEMOQA elements/Page_DEMOQA element/span_Buttons"))
+2025-06-22 07:54:48.607 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/Page_DEMOQA elements/Page_DEMOQA element/span_Buttons' does not exist
+2025-06-22 07:54:48.634 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+2025-06-22 07:54:49.035 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Button.run(Button:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750553656546.run(TempTestSuite1750553656546.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1750000256619.run(Script1750000256619.groovy:24)
+	... 15 more
+)
+2025-06-22 07:54:49.047 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Button.run(Button:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750553656546.run(TempTestSuite1750553656546.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-06-22 07:54:49.054 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Button
+2025-06-22 07:54:49.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-22 07:54:49.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Check box
+2025-06-22 07:54:49.203 DEBUG testcase.Check box                       - 1: openBrowser("https://demoqa.com/")
+2025-06-22 07:54:49.211 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-22 07:54:49.890 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-22 07:54:49.890 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-22 07:54:49.890 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-22 07:54:50.233 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 343 ms
+2025-06-22 07:54:50.233 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\param\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-22 07:54:50.233 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\param\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-22 07:54:50.233 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 22, 2025 7:54:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 7:54:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-22 07:54:51.224 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fd47c2b16bcecf6a95d1e306926a6129
+2025-06-22 07:54:51.226 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-22 07:54:51.227 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-22 07:54:51.227 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-22 07:54:51.229 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-22 07:55:13.999 DEBUG testcase.Check box                       - 2: click(findTestObject("Page_DEMOQA elements/h5_Elements"))
+2025-06-22 07:55:14.914 DEBUG testcase.Check box                       - 3: click(findTestObject("Page_DEMOQA elements/span_Check Box"))
+2025-06-22 07:55:16.117 DEBUG testcase.Check box                       - 4: check(findTestObject("Page_DEMOQA elements/svg_Check Box_rct-icon rct-icon-uncheck"))
+2025-06-22 07:55:16.718 DEBUG testcase.Check box                       - 5: check(findTestObject("Page_DEMOQA elements/svg_Check Box_rct-icon rct-icon-expand-all"))
+2025-06-22 07:55:18.461 DEBUG testcase.Check box                       - 6: verifyElementNotChecked(findTestObject("Page_DEMOQA elements/svg_Private_rct-icon rct-icon-uncheck"), 0)
+2025-06-22 07:55:18.461 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/Page_DEMOQA elements/svg_Private_rct-icon rct-icon-uncheck' does not exist
+2025-06-22 07:55:18.496 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+2025-06-22 07:55:18.933 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1507)
+	at Check box.run(Check box:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750553656546.run(TempTestSuite1750553656546.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.doCall(VerifyElementNotCheckedKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.call(VerifyElementNotCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1507)
+	at Script1749977621525.run(Script1749977621525.groovy:30)
+	... 15 more
+)
+2025-06-22 07:55:18.943 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Check box
+2025-06-22 07:55:18.939 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Check box FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1507)
+	at Check box.run(Check box:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750553656546.run(TempTestSuite1750553656546.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.doCall(VerifyElementNotCheckedKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.call(VerifyElementNotCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-06-22 07:55:18.947 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-22 07:55:18.949 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/radio button
+2025-06-22 07:55:19.077 DEBUG testcase.radio button                    - 1: openBrowser("https://demoqa.com/")
+2025-06-22 07:55:19.085 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-22 07:55:19.883 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-22 07:55:19.886 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-22 07:55:19.886 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-22 07:55:20.275 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 389 ms
+2025-06-22 07:55:20.275 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\param\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-22 07:55:20.275 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\param\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-22 07:55:20.275 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 22, 2025 7:55:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 7:55:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-22 07:55:21.403 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 67960f4b897ffecdc66d54d3574160b9
+2025-06-22 07:55:21.403 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-22 07:55:21.405 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-22 07:55:21.405 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-22 07:55:21.405 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-22 07:55:27.556 DEBUG testcase.radio button                    - 2: click(findTestObject("Page_DEMOQA elements/h5_Elements"))
+2025-06-22 07:55:29.252 DEBUG testcase.radio button                    - 3: click(findTestObject("Page_DEMOQA elements/Page_DEMOQA element/span_Radio Button"))
+2025-06-22 07:55:29.255 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/Page_DEMOQA elements/Page_DEMOQA element/span_Radio Button' does not exist
+2025-06-22 07:55:29.260 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+2025-06-22 07:55:29.541 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at radio button.run(radio button:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750553656546.run(TempTestSuite1750553656546.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1749996312110.run(Script1749996312110.groovy:24)
+	... 15 more
+)
+2025-06-22 07:55:29.544 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/radio button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at radio button.run(radio button:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750553656546.run(TempTestSuite1750553656546.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-06-22 07:55:29.547 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/radio button
+2025-06-22 07:55:29.559 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-22 07:55:29.559 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Text box
+2025-06-22 07:55:29.713 DEBUG testcase.Text box                        - 1: openBrowser("https://demoqa.com/")
+2025-06-22 07:55:29.723 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-22 07:55:30.399 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-22 07:55:30.399 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-22 07:55:30.399 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-22 07:55:30.715 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 316 ms
+2025-06-22 07:55:30.716 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\param\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-22 07:55:30.716 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\param\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-22 07:55:30.716 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 22, 2025 7:55:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 7:55:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-22 07:55:31.839 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b04d558b1951ea3998d8500b349fc91b
+2025-06-22 07:55:31.841 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-22 07:55:31.843 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-22 07:55:31.843 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-22 07:55:31.843 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-22 07:55:35.624 DEBUG testcase.Text box                        - 2: click(findTestObject("Page_DEMOQA elements/h5_Elements"))
+2025-06-22 07:55:40.904 DEBUG testcase.Text box                        - 3: click(findTestObject("Page_DEMOQA elements/span_Text Box"))
+2025-06-22 07:55:42.798 DEBUG testcase.Text box                        - 4: verifyElementVisible(findTestObject("Page_DEMOQA elements/input_Full Name_userName"))
+2025-06-22 07:55:44.150 DEBUG testcase.Text box                        - 5: setText(findTestObject("Page_DEMOQA elements/input_Full Name_userName"), "Mary Jane")
+2025-06-22 07:55:44.841 DEBUG testcase.Text box                        - 6: setText(findTestObject("Page_DEMOQA elements/input_Email_userEmail"), "maryjane123@mail.com")
+2025-06-22 07:55:45.487 DEBUG testcase.Text box                        - 7: setText(findTestObject("Page_DEMOQA elements/textarea_Current Address_currentAddress"), "jl. anggrek no.5 jakarta timur")
+2025-06-22 07:55:46.154 DEBUG testcase.Text box                        - 8: setText(findTestObject("Page_DEMOQA elements/textarea_Permanent Address_permanentAddress"), "jl. bungur no.3 bandung")
+2025-06-22 07:55:46.762 DEBUG testcase.Text box                        - 9: click(findTestObject("Page_DEMOQA elements/button_Submit"))
+2025-06-22 07:55:51.237 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Text box
+2025-06-22 07:55:51.250 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-22 07:55:51.250 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/upload and download
+2025-06-22 07:55:51.422 DEBUG testcase.upload and download             - 1: openBrowser("https://demoqa.com/")
+2025-06-22 07:55:51.433 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-22 07:55:52.405 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-22 07:55:52.405 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-22 07:55:52.405 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-22 07:55:52.768 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 363 ms
+2025-06-22 07:55:52.768 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\param\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-22 07:55:52.768 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\param\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-22 07:55:52.768 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 22, 2025 7:55:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 7:55:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-22 07:55:53.938 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bc578df100f1ab7582dd4c2fb17984b6
+2025-06-22 07:55:53.940 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-22 07:55:53.940 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-22 07:55:53.940 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-22 07:55:53.942 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-22 07:55:57.695 DEBUG testcase.upload and download             - 2: click(findTestObject("Page_DEMOQA elements/h5_Elements"))
+2025-06-22 07:56:00.597 DEBUG testcase.upload and download             - 3: click(findTestObject("Page_DEMOQA elements/span_Upload and Download"))
+2025-06-22 07:56:03.493 DEBUG testcase.upload and download             - 4: click(findTestObject("Page_DEMOQA elements/a_Download"))
+2025-06-22 07:56:06.124 DEBUG testcase.upload and download             - 5: uploadFile(findTestObject("Page_DEMOQA elements/input_Select a file_uploadFile"), "C:\Users\param\Downloads\test documentt.docx")
+2025-06-22 07:56:06.472 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/upload and download
+2025-06-22 07:56:07.194 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-22 07:56:07.194 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Element
+2025-06-22 07:56:07.194 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

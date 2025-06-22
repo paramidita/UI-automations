@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Element,Chrome 137.0.7151.119,,,22-06-2025 07:54:24,22-06-2025 07:56:07,1m - 43.052s,FAILED
+,,,,,,,
+Test Cases/Button,Chrome 137.0.7151.119,,,22-06-2025 07:54:25,22-06-2025 07:54:49,24.028s,FAILED
+"openBrowser(""https://demoqa.com/"")",Chrome 137.0.7151.119,,,22-06-2025 07:54:25,22-06-2025 07:54:37,11.537s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/h5_Elements""))",Chrome 137.0.7151.119,,,22-06-2025 07:54:37,22-06-2025 07:54:48,11.467s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/Page_DEMOQA element/span_Buttons""))",Chrome 137.0.7151.119,,,22-06-2025 07:54:48,22-06-2025 07:54:49,0.440s,FAILED
+,,,,,,,
+Test Cases/Check box,Chrome 137.0.7151.119,,,22-06-2025 07:54:49,22-06-2025 07:55:18,29.880s,FAILED
+"openBrowser(""https://demoqa.com/"")",Chrome 137.0.7151.119,,,22-06-2025 07:54:49,22-06-2025 07:55:13,24.796s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/h5_Elements""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:13,22-06-2025 07:55:14,0.916s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/span_Check Box""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:14,22-06-2025 07:55:16,1.202s,PASSED
+"check(findTestObject(""Page_DEMOQA elements/svg_Check Box_rct-icon rct-icon-uncheck""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:16,22-06-2025 07:55:16,0.600s,PASSED
+"check(findTestObject(""Page_DEMOQA elements/svg_Check Box_rct-icon rct-icon-expand-all""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:16,22-06-2025 07:55:18,1.743s,PASSED
+"verifyElementNotChecked(findTestObject(""Page_DEMOQA elements/svg_Private_rct-icon rct-icon-uncheck""), 0)",Chrome 137.0.7151.119,,,22-06-2025 07:55:18,22-06-2025 07:55:18,0.476s,FAILED
+,,,,,,,
+Test Cases/radio button,Chrome 137.0.7151.119,,,22-06-2025 07:55:18,22-06-2025 07:55:29,10.598s,FAILED
+"openBrowser(""https://demoqa.com/"")",Chrome 137.0.7151.119,,,22-06-2025 07:55:19,22-06-2025 07:55:27,8.479s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/h5_Elements""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:27,22-06-2025 07:55:29,1.696s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/Page_DEMOQA element/span_Radio Button""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:29,22-06-2025 07:55:29,0.289s,FAILED
+,,,,,,,
+Test Cases/Text box,Chrome 137.0.7151.119,,,22-06-2025 07:55:29,22-06-2025 07:55:51,21.678s,PASSED
+"openBrowser(""https://demoqa.com/"")",Chrome 137.0.7151.119,,,22-06-2025 07:55:29,22-06-2025 07:55:35,5.911s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/h5_Elements""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:35,22-06-2025 07:55:40,5.280s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/span_Text Box""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:40,22-06-2025 07:55:42,1.894s,PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA elements/input_Full Name_userName""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:42,22-06-2025 07:55:44,1.352s,PASSED
+"setText(findTestObject(""Page_DEMOQA elements/input_Full Name_userName""), ""Mary Jane"")",Chrome 137.0.7151.119,,,22-06-2025 07:55:44,22-06-2025 07:55:44,0.691s,PASSED
+"setText(findTestObject(""Page_DEMOQA elements/input_Email_userEmail""), ""maryjane123@mail.com"")",Chrome 137.0.7151.119,,,22-06-2025 07:55:44,22-06-2025 07:55:45,0.646s,PASSED
+"setText(findTestObject(""Page_DEMOQA elements/textarea_Current Address_currentAddress""), ""jl. anggrek no.5 jakarta timur"")",Chrome 137.0.7151.119,,,22-06-2025 07:55:45,22-06-2025 07:55:46,0.667s,PASSED
+"setText(findTestObject(""Page_DEMOQA elements/textarea_Permanent Address_permanentAddress""), ""jl. bungur no.3 bandung"")",Chrome 137.0.7151.119,,,22-06-2025 07:55:46,22-06-2025 07:55:46,0.608s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/button_Submit""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:46,22-06-2025 07:55:51,4.475s,PASSED
+,,,,,,,
+Test Cases/upload and download,Chrome 137.0.7151.119,,,22-06-2025 07:55:51,22-06-2025 07:56:06,15.222s,PASSED
+"openBrowser(""https://demoqa.com/"")",Chrome 137.0.7151.119,,,22-06-2025 07:55:51,22-06-2025 07:55:57,6.273s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/h5_Elements""))",Chrome 137.0.7151.119,,,22-06-2025 07:55:57,22-06-2025 07:56:00,2.902s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/span_Upload and Download""))",Chrome 137.0.7151.119,,,22-06-2025 07:56:00,22-06-2025 07:56:03,2.894s,PASSED
+"click(findTestObject(""Page_DEMOQA elements/a_Download""))",Chrome 137.0.7151.119,,,22-06-2025 07:56:03,22-06-2025 07:56:06,2.631s,PASSED
+"uploadFile(findTestObject(""Page_DEMOQA elements/input_Select a file_uploadFile""), ""C:\Users\param\Downloads\test documentt.docx"")",Chrome 137.0.7151.119,,,22-06-2025 07:56:06,22-06-2025 07:56:06,0.348s,PASSED

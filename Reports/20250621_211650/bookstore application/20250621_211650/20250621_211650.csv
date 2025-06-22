@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+bookstore application,,,,21-06-2025 21:16:56,21-06-2025 21:20:27,3m - 31.288s,FAILED
+,,,,,,,
+Test Cases/register new user,,,,21-06-2025 21:16:57,21-06-2025 21:20:27,3m - 30.480s,FAILED
+"openBrowser(""https://demoqa.com/"")",,,,21-06-2025 21:16:57,21-06-2025 21:20:27,3m - 29.887s,FAILED
